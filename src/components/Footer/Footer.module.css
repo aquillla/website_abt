@@ -1,0 +1,40 @@
+.footer {
+    background: var(--bg, #ececec);
+    /* padding: 50px 100px; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+  }
+  
+  @media (max-width: 991px) {
+    .footer {
+      padding: 50px 20px;
+    }
+  }
+  
+  .contactLinks {
+    display: flex;
+    gap: 24px;
+  }
+  
+  @media (max-width: 991px) {
+    .contactLinks {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--Primary-Dark-Green, #032c28);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }

@@ -1,0 +1,52 @@
+.serviceSection {
+  background: var(--Primary-Dark-Green, #032c28);
+  color: var(--White, #fff);
+  text-align: center;
+  font: 16px Inter, sans-serif;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTitle {
+  font: 400 32px/2 Archivo Black, -apple-system, Roboto, Helvetica, sans-serif;
+  margin-top: -10px;
+}
+
+.divider {
+  width: 100%;
+  height: auto;
+  margin-top: -10px;
+  stroke-width: 1px;
+  stroke: var(--Secondary-Yellow, #b8923d);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .serviceSection {
+    padding: 40px 20px;
+  }
+
+  .sectionTitle,
+  .divider,
+  .cardContainer {
+    max-width: 100%;
+  }
+
+  .divider {
+    margin-top: 40px;
+  }
+
+  .cardContainer {
+    margin-top: 40px;
+  }
+}

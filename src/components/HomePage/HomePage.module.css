@@ -1,0 +1,12 @@
+.homePage {
+    background: var(--White, #fff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (max-width: 991px) {
+    .homePage {
+      padding: 0 20px;
+    }
+  }

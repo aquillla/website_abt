@@ -1,0 +1,15 @@
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 50px;
+    justify-content: center;
+    padding: 48px 0;
+    width: 400px;
+    margin: 100px;
+  }
+  
+  @media (max-width: 991px) {
+    .packages {
+      padding: 48px 20px;
+    }
+  }

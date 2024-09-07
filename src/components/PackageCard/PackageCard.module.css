@@ -1,0 +1,53 @@
+.packageCard {
+    border-radius: 12px;
+    background: var(--White, #fff);
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imageContainer {
+    position: relative;
+  }
+  
+  .packageImage {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.9;
+    object-fit: cover;
+  }
+  
+  .dateLabel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background: var(--Secondary-Yellow, #b8923d);
+    color: var(--White, #fff);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .calendarIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .packageInfo {
+    padding: 24px;
+  }
+  
+  .packageTitle {
+    color: var(--Black, #000);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .packagePrice {
+    color: var(--Secondary-Yellow, #b8923d);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+  }

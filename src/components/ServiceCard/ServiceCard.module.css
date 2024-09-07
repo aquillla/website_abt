@@ -1,0 +1,35 @@
+.serviceCard {
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  min-width: 240px;
+  flex: 1;
+  flex-basis: 0%;
+}
+
+.serviceIcon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.serviceTitle {
+  font-weight: 600;
+  line-height: 2;
+  margin-top: 8px;
+}
+
+.serviceDescription {
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 8px;
+}
+
+@media (max-width: 991px) {
+  .serviceCard {
+    padding: 20px;
+  }
+}

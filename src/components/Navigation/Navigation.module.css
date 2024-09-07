@@ -1,0 +1,30 @@
+.navigation {
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8px;
+  width: 40%;
+  margin-left: 300px;
+  margin-top: 35px;
+  height: 50px;
+}
+
+.navLink {
+  color: var(--White, #fff);
+  text-decoration: none;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.navLink:first-child {
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .navigation {
+    max-width: 100%;
+  }
+}

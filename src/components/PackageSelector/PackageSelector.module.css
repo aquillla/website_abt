@@ -1,0 +1,45 @@
+.packageSelector {
+    background: var(--bg, #ececec);
+    padding: 50px 100px;
+    text-align: center;
+  }
+  
+  @media (max-width: 991px) {
+    .packageSelector {
+      padding: 50px 20px;
+    }
+  }
+  
+  .title {
+    color: var(--Primary-Soft-Green, #004f4a);
+    font: 32px Archivo Black, sans-serif;
+  }
+  
+  .description {
+    color: var(--Grey, #656565);
+    font: 16px Inter, sans-serif;
+    margin-top: 16px;
+  }
+  
+  .selectorContainer {
+    display: inline-flex;
+    border-radius: 999px;
+    background: var(--White, #fff);
+    margin-top: 16px;
+    padding: 12px;
+  }
+  
+  .selectorBtn {
+    border-radius: 999px;
+    padding: 16px;
+    font: 16px Inter, sans-serif;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .selectorBtn.active {
+    background: var(--Primary-Soft-Green, #004f4a);
+    color: var(--White, #fff);
+    font-weight: 600;
+  }
